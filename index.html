@@ -127,14 +127,30 @@
 
 <article class="first-entry"> 
   <header class="entry-header">
-    <h2>MyFirstArticle
+    <h2>Windows使用Hugo&#43;GitHub Pages搭建个人博客
     </h2>
   </header>
   <div class="entry-content">
-    <p>#这是我的第一篇博客</p>
+    <p>搭建本地博客 1.下载Hugo并配置环境变量 去网址https://github.com/gohugoio/hugo/releases下载所需hugo版本,下载完成后进行环境变量配置。Win&#43;R–&gt;输入sysdm.cpl–&gt;高级–&gt;环境变量–&gt;系统变量–&gt;Path中将hugo安装路径输入后确定，在控制台中输入hugo version命令，若hugo安装配置成功则会出现类似以下信息：
+2.搭建个人本地站点 在控制台中进入hugo根目录下，使用命令hugo new site xxx(yourname)创建本地站点，成功则会在xxx目录下出现文件如下：
+3.新建个人文章 在控制台中进入博客(xxx)目录，使用hugo new posts/MyFirstArticle.md命令建立第一篇文章,接着打开md文档，将draft: true中的true改为false,即表示是正式文章：
+4.下载博客主题并配置文件 进入网址https://themes.gohugo.io/下载喜欢的博客主题安装到博客目录下的themes文件夹下，并打开hugo.toml文件进行修改如下：
+删除baseURL中的内容，因为现在的博客是搭建在本地的，不需要URL，theme的主题名称填写自己安装的主题名称。
+5.测试本地博客是否搭建成功 在博客目录下使用hugo server命令，若出现如下情况则搭建成功：
+进入上述网址可查看本地博客：
+将本地博客上传至GitHub Pages托管 1.相关软件下载准备 需要安装三个软件，分别是Git,GitHubDesktop,FastGithub,图标如图所示：
+其中Git,GitHubDesktop到官方网站下载即可安装即可；FastGithub到Github中下载，如需要有百度网盘链接：https://pan.baidu.com/s/117pdS3eaVfA8KTDU9ltkJw?pwd=4728 提取码：4728，FastGithub运行后可加快Github访问速度。
+2.生成博客静态页 进入控制台，在博客目录下使用hugo命令生成静态页，成功会出现一个public文件夹：
+3.初始化git仓库并将静态页文件交由git管理 在public目录下，使用git init命令进行初始化，成功会出现一个.git文件夹：
+注意，这是隐藏文件夹，需要在查看里打开显示隐藏项目才能看到；接着使用git add .命令将public文件夹交给git托管，接着使用git commit -m “提交名称&#34;命令向git提交内容。
+4.上传至GitHub仓库 打开GitHubDesktop软件，选择 将public文件夹添加进仓库，并选择 上传仓库，仓库名格式为GitHub用户名.github.io,如：
+并取消代码私有上传。
+5.使用Pages托管网站 登录GitHub进入仓库：
+点击Settings然后设置Pages：
+将分支设置成master或者main然后保存，成功后即可通过仓库名访问网站：</p>
   </div>
   <footer class="entry-footer"><span title='2023-10-29 23:38:42 +0800 CST'>October 29, 2023</span></footer>
-  <a class="entry-link" aria-label="post link to MyFirstArticle" href="/posts/myfirstarticle/"></a>
+  <a class="entry-link" aria-label="post link to Windows使用Hugo&#43;GitHub Pages搭建个人博客" href="/posts/myfirstarticle/"></a>
 </article>
     </main>
     
