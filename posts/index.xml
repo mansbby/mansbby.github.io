@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on Mansbby-Blog</title>
     <link>/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on Mansbby-Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Oct 2023 23:38:42 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Dec 2023 23:26:52 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>像素艺术学习——线条，形状，阴影</title>
+      <link>/posts/pixelart-001/</link>
+      <pubDate>Sun, 17 Dec 2023 23:26:52 +0800</pubDate>
+      
+      <guid>/posts/pixelart-001/</guid>
+      <description>线条，形状，阴影 线条 像素艺术的最小单位为一个像素，不可再分。在像素艺术中，可以操作每一个像素，艺术家拥有完全的控制权，但是，正因像素艺术的完全可控性，像素艺术的线条并没有自然笔触的线条柔和，而使用自然笔触的方式绘制像素线条也并不好看。使用像素绘制线条要注意规律性。对于直线而言，一般使用相同数量的“台阶”来表示；对于曲线而言，使用递增数量的“台阶”更加有效。
+形状 “点动成线，线动成面”。就直觉而言，是线封闭而构成了形状，反直觉的是，自然界中并不存在线这一概念，而是面的边缘或是相邻的面形成了“线”的视觉观感。在像素艺术中，可以采用线稿或者形状块或者线稿+形状块3种方式起稿。
+阴影 通常，绘画的媒介是2D物体，绘画的对象自然也是2D的，根据自然界的光影规则，对2D对象添加阴影，可以制造出对象的深度效果，从而呈现出对象是3D对象的错觉。绘制阴影时可以根据三大面五大调的明暗规律来绘制，三大面分别是背光（黑）面，受光（白）面，侧光（灰）面；五大调指亮面，灰面，明暗交界线，反光，投影。通过对五种几何体进行阴影绘制练习可以提升对明暗关系的理解。</description>
+    </item>
+    
     <item>
       <title>Windows使用Hugo&#43;GitHub Pages搭建个人博客</title>
       <link>/posts/myfirstarticle/</link>
